@@ -422,7 +422,16 @@ Fire up the camera by entering the following command.
 
 ```
 
-sudo service motion start
+sudo motion /etc/motion/motion.conf
+
+```
+
+Stop the camera by entering the following command.
+
+
+```
+
+sudo service motion stop
 
 ```
 
